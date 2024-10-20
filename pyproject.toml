@@ -1,0 +1,32 @@
+[project]
+name = "nonebot-netrunner"
+version = "0.1.0"
+description = "nonebot-netrunner"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = []
+plugin_dirs = []
+builtin_plugins = ["echo"]
+
+[tool.poetry]
+name = "nonebot-netrunner"
+version = "0.0.1"
+description = "a QQ bot that fetch & send Netrunner info, built with NoneBot."
+authors = ["Eric <eric03742@foxmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebot-adapter-onebot = "^2.4.5"
+nonebot2 = {extras = ["fastapi"], version = "^2.3.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
