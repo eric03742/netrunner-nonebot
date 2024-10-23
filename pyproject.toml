@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-netrunner"
-version = "0.1.0"
+version = "0.2.0"
 description = "nonebot-netrunner"
 readme = "README.md"
 requires-python = ">=3.9, <4.0"
@@ -15,7 +15,7 @@ builtin_plugins = ["echo"]
 
 [tool.poetry]
 name = "nonebot-netrunner"
-version = "0.0.1"
+version = "0.2.0"
 description = "a QQ bot that fetch & send Netrunner info, built with NoneBot."
 authors = ["Eric <eric03742@foxmail.com>"]
 license = "MIT"
